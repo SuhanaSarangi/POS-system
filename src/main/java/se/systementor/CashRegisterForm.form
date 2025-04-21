@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="se.systementor.CashRegisterForm">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1042" height="538"/>
+    </constraints>
+    <properties>
+      <maximumSize width="800" height="600"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="3c98b" binding="panelLeft" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <maximumSize width="500" height="500"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="d7e8a" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="South"/>
+            <properties>
+              <maximumSize width="500" height="500"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="bfab2" class="javax.swing.JButton" binding="clearButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Clear"/>
+                </properties>
+              </component>
+              <component id="86d27" class="javax.swing.JButton" binding="s3statsButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="S3stats"/>
+                </properties>
+              </component>
+              <component id="e7451" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <columns value="30"/>
+                </properties>
+              </component>
+              <component id="f6e3a" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="Quantity:"/>
+                </properties>
+              </component>
+              <component id="d6c15" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+                <constraints/>
+                <properties>
+                  <columns value="2"/>
+                </properties>
+              </component>
+              <component id="c8a7e" class="javax.swing.JButton" binding="addButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Add"/>
+                </properties>
+              </component>
+              <component id="2baa5" class="javax.swing.JButton" binding="payButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Pay"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="a53f" binding="buttonsPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-14602235"/>
+              <maximumSize width="500" height="500"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </grid>
+      <grid id="5b7e3" binding="panelRight" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="East"/>
+        <properties>
+          <maximumSize width="500" height="500"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="418c7">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <maximumSize width="500" height="500"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="7dae1" class="javax.swing.JTextArea" binding="receiptArea">
+                <constraints/>
+                <properties>
+                  <columns value="60"/>
+                  <editable value="false"/>
+                  <font name="Courier New"/>
+                  <maximumSize width="500" height="500"/>
+                  <rows value="0"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
